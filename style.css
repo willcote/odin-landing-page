@@ -1,0 +1,36 @@
+html {
+  padding: 0 12vw;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+/* Section 1 */
+.section-1 {
+  display: flex;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+}
+
+#hero-sign-up-button {
+  width: 80px;
+  flex: 0 0 auto;
+}
+/* Section 2 */
+
+/* Section 3 */
+
+/* Section 4 */
+
+/* Footer */
