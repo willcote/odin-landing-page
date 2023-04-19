@@ -1,20 +1,50 @@
 html {
-  padding: 0 12vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header */
 .header {
+  background-color: #1f2937;
+  flex-basis: 48px;
+
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   gap: 16px;
 }
 
 .logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.logo {
+  color: #f9faf8;
   margin-right: auto;
+}
+
+.header-link {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 /* Section 1 */
 .section-1 {
+  background-color: #1f2937;
   display: flex;
 }
 
@@ -27,10 +57,32 @@ html {
   width: 80px;
   flex: 0 0 auto;
 }
+
 /* Section 2 */
+.section-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-image-container {
+  display: flex;
+}
 
 /* Section 3 */
+.section-3 {
+  display: flex;
+  flex-direction: column;
+}
 
 /* Section 4 */
+.call-to-action {
+  display: flex;
+}
 
 /* Footer */
+.footer {
+  flex-basis: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
