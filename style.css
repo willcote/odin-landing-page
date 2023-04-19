@@ -1,12 +1,23 @@
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 a {
-  margin: 0;
-  padding: 0;
   text-decoration: none;
   color: #e5e7eb;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+
+  font-weight: 600;
 }
 
 body {
@@ -20,30 +31,30 @@ body {
 .header {
   background-color: #1f2937;
   flex-basis: 48px;
+  padding: 0 160px;
 
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
 }
 
 .logo {
   font-size: 24px;
   font-weight: 700;
-}
-
-.logo {
   color: #f9faf8;
   margin-right: auto;
 }
 
 .header-link {
   font-size: 18px;
+  font-weight: 300;
   color: #e5e7eb;
 }
 
 /* Section 1 */
 .section-1 {
+  padding: 80px 160px;
   background-color: #1f2937;
   display: flex;
 }
@@ -53,34 +64,103 @@ body {
   flex-direction: column;
 }
 
+.hero-text > h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-text > p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
 #hero-sign-up-button {
-  width: 80px;
   flex: 0 0 auto;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-style: none;
 }
 
 /* Section 2 */
 .section-2 {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.information-header-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 
 .info-image-container {
   display: flex;
 }
 
+info-image > img {
+  width: 50px;
+  height: 100px;
+}
+
+.info-image > p {
+  color: #1f2937;
+}
+
 /* Section 3 */
 .section-3 {
+  background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
 }
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+.quote-author {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: auto;
+}
 
 /* Section 4 */
+
+.section-4 {
+  padding: 80px 160px;
+}
 .call-to-action {
+  background-color: #3882f6;
+  padding: 40px 100px;
+  border-radius: 6px;
   display: flex;
+  align-items: center;
+}
+
+.call-to-action-text > h4 {
+  color: #f9faf8;
+  font-size: 22px;
+}
+.call-to-action-text > p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+#call-to-action-button {
+  border-style: solid;
+  border-color: #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+
+  margin-left: auto;
 }
 
 /* Footer */
 .footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+
   flex-basis: 72px;
   display: flex;
   justify-content: center;
