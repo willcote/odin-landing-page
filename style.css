@@ -95,14 +95,14 @@ body {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
-  margin: 40px 0;
+  margin: 30px 0;
 }
 
 .info-image-container {
   display: flex;
   justify-content: center;
   gap: 32px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .info-image {
@@ -110,9 +110,14 @@ body {
   text-align: center;
 }
 
-info-image > img {
-  width: 50px;
-  height: 100px;
+.small-image {
+  border-radius: 16px;
+  border-style: solid;
+  border-color: #3882f6;
+  width: 130px;
+  max-height: 130px;
+  object-fit: none;
+  object-position: 50% 46%;
 }
 
 .info-image > p {
