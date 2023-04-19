@@ -17,7 +17,7 @@ button {
   height: 30px;
   border-radius: 6px;
 
-  font-weight: 600;
+  font-weight: 700;
 }
 
 body {
@@ -72,7 +72,9 @@ body {
 
 .hero-text > p {
   font-size: 18px;
+  font-weight: 300;
   color: #e5e7eb;
+  margin-bottom: 12px;
 }
 
 #hero-sign-up-button {
@@ -93,10 +95,19 @@ body {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  margin: 40px 0;
 }
 
 .info-image-container {
   display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.info-image {
+  flex-basis: 100px;
+  text-align: center;
 }
 
 info-image > img {
@@ -113,13 +124,16 @@ info-image > img {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
+  padding: 120px 280px;
 }
 .quote {
+  color: #1f2937;
   font-size: 36px;
   font-style: italic;
-  font-weight: 100;
+  font-weight: 300;
 }
 .quote-author {
+  color: #1f2937;
   font-size: 24px;
   font-weight: 600;
   margin-left: auto;
@@ -145,6 +159,7 @@ info-image > img {
 .call-to-action-text > p {
   color: #e5e7eb;
   font-size: 18px;
+  font-weight: 300;
 }
 
 #call-to-action-button {
